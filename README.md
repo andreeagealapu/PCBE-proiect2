@@ -1,9 +1,9 @@
 # PCBE-Proiect2
 Echipa este formată din:
-	Nicolae Cristina
-	Gealapu Andreea
-	Culda Paula
-	Covaci Crina
+	Nicolae Cristina,
+	Gealapu Andreea,
+	Culda Paula,
+	Covaci Crina.
 	
 	
 	Proiectul nostru implementează un sistem de știri. 
