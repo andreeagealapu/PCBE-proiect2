@@ -118,8 +118,8 @@ public class SubscriberImpl extends Actors implements Runnable
         PublisherImpl pub1 = new PublisherImpl("Ana", service);
         PublisherImpl pub2= new PublisherImpl("George", service);
 
-        Message m1 = new Message("Sports","Football","DigiSport", this.getName(),"Meci Steaua-Dinamo 2-2");
-        Message m2 = new Message("Arts","Painting","Luvru", this.getName(),"Secrets about Monalisa");
+        Message m1 = new Message("Sports","Football","DigiSport", pub1.getName(),"Meci Steaua-Dinamo 2-2");
+        Message m2 = new Message("Arts","Painting","Luvru", pub2.getName(),"Secrets about Monalisa");
 
         Events e1 = new Events(Events.EventType.Added,m1);
         Events e2 = new Events(Events.EventType.Modified,m1,"Meci Rapid-Steaua 1-1","Meci Steaua-Dinamo 2-2");
