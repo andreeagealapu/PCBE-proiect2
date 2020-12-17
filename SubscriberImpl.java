@@ -18,7 +18,7 @@ public class SubscriberImpl extends Actors implements Runnable
     public void registerListener(String eventType, String domain)
     {
         service.addSubscriber(eventType, this, domain);
-        System.out.println("Cititorul "+ this.getName() + " s-a abonat pentru evenimente de tipul " + eventType);
+        System.out.println("Cititorul "+ this.getName() + " s-a abonat pentru evenimente de tipul " + eventType + " pentru domeniul " + domain);
 
     }
 
