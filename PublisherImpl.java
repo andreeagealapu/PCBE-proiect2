@@ -18,7 +18,7 @@ public class PublisherImpl extends Actors implements Runnable
     {
 
         service.addSubscriber(eventType, this, domain);
-        System.out.println("Editorul "+ this.getName() + " s-a abonat pentru evenimente de tipul " + eventType);
+        System.out.println("Editorul "+ this.getName() + " s-a abonat pentru evenimente de tipul " + eventType + " pentru domeniul " + domain);
 
     }
 
