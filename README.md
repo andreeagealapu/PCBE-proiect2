@@ -1,4 +1,6 @@
-# PCBE-Proiect2
+# PCBE
+Proiect2 - Sistem de știri
+
 Echipa este formată din:
 	Nicolae Cristina,
 	Gealapu Andreea,
